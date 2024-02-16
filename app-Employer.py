@@ -18,7 +18,7 @@ def main():
     """
     st.markdown(html_temp, unsafe_allow_html = True)
     
-    name = st.text_input("Name","0") 
+    name = st.text_input("Name","Employee's name") 
     department = st.selectbox("Department", ["Technical", "Sales", "Support", "HR", "IT", "Accounting", "Management", "Marketing", "Product Management", "Research and Development"])
     satisfaction_level = st.slider("Satisfaction Level", min_value=0.00, max_value=1.00, step=0.01)
     last_evaluation = st.slider("Last Evaluation Score", min_value=0.00, max_value=1.00, step=0.01)
