@@ -15,12 +15,16 @@ def main():
     html_temp = """
     <style>
     div.appview-container {
-        background-color: #85BB65;
+        background-color: #cfdfc6;
         opacity: 0.8;
-        background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #85BB65 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
+        background-image: radial-gradient(circle at center center, #85bb65, #cfdfc6), repeating-radial-gradient(circle at center center, #85bb65, #85bb65, 10px, transparent 30px, transparent 30px);
+        background-blend-mode: multiply;
     }
     div.block-container {
         background: rgb(255, 255, 255);
+    }
+    div.stMarkdown {
+        background: #66904E;
     }
     </style>
     <div style="background:#025246 ;padding:10px">
