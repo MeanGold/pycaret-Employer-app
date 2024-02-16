@@ -22,8 +22,8 @@ def main():
     department = st.selectbox("Department", ["Technical", "Sales", "Support", "HR", "IT", "Accounting", "Management", "Marketing", "Product Management", "Research and Development"])
     satisfaction_level = st.slider("Satisfaction Level", min_value=0.00, max_value=1.00, step=0.01)
     last_evaluation = st.slider("Last Evaluation Score", min_value=0.00, max_value=1.00, step=0.01)
-    average_montly_hours = (4.3)*(st.number_input("How many hours do you work per week?"))
-    time_spend_company = st.number_input("How many years have you been with the company?")
+    average_montly_hours = (4.3)*(st.number_input("How many hours does the employee work per week?"))
+    time_spend_company = st.number_input("How many years has the employee been with the company?")
     salary = st.selectbox("Salary range", ["High", "Medium", "Low"])
     
     if st.button("Check departure status!"): 
