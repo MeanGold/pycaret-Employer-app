@@ -15,8 +15,9 @@ def main():
     html_temp = """
     <style>
     div.appview-container {
-        background: rgb(255,255,255);
-        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,119,4,1) 94%);
+        background-color: #e5e5f7;
+        opacity: 0.8;
+        background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
     }
     div.block-container {
         background: rgb(255, 255, 255);
