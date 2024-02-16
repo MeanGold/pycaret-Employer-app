@@ -13,6 +13,10 @@ def main():
     st.title("Check your retention rate! ")
     # Basic website styling
     html_temp = """
+    <style>
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,119,4,1) 94%);
+    </style>
     <div style="background:#025246 ;padding:10px">
     <h2 style="color:white;text-align:center;">Employee Retention Predictor</h2>
     </div>
