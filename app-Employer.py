@@ -14,6 +14,7 @@ def main():
     # Basic website styling
     html_temp = """
     <style>
+    /*This code provides the styling for the background*/
     div.appview-container {
         background-color: #cfdfc6;
         opacity: 0.8;
