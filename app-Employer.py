@@ -23,9 +23,6 @@ def main():
     div.block-container {
         background: rgb(255, 255, 255);
     }
-    div.stMarkdown {
-        background: #66904E;
-    }
     </style>
     <div style="background:#66904E ;padding:10px">
     <h2 style="color:white;text-align:center;">Employee Retention Predictor</h2>
