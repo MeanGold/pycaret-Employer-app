@@ -24,7 +24,7 @@ def main():
     last_evaluation = st.slider("Last Evaluation Score", min_value=0.00, max_value=1.00, step=0.01)
     average_montly_hours = (4.3)*(st.number_input("How many hours does the employee work per week?"))
     time_spend_company = st.number_input("How many years has the employee been with the company?")
-    salary = st.selectbox("Salary range", ["High", "Medium", "Low"])
+    salary = st.selectbox("Enter the employee's salary range", ["High", "Medium", "Low"])
     
     if st.button("Check departure status!"): 
         features = [[name, department, satisfaction_level, average_montly_hours, time_spend_company]]
